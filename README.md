@@ -19,8 +19,8 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.26-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/)
 [![SciPy](https://img.shields.io/badge/SciPy-1.11-8CAAE6?style=flat-square&logo=scipy&logoColor=white)](https://scipy.org/)
 [![Docs](https://img.shields.io/badge/Docs-35개-blue?style=flat-square&logo=readthedocs&logoColor=white)](./README.md)
-[![Lines](https://img.shields.io/badge/Lines-17k+-informational?style=flat-square)](./README.md)
-[![Theorems](https://img.shields.io/badge/Theorems_proven-84개-success?style=flat-square)](./README.md)
+[![Lines](https://img.shields.io/badge/Lines-13k+-informational?style=flat-square)](./README.md)
+[![Theorems](https://img.shields.io/badge/Theorems_proven-166개-success?style=flat-square)](./README.md)
 [![Exercises](https://img.shields.io/badge/Exercises-105개-orange?style=flat-square)](./README.md)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=opensourceinitiative&logoColor=white)](./LICENSE)
 
@@ -235,7 +235,7 @@
 
 ## 🏆 핵심 정리 인덱스
 
-이 레포에서 **완전한 증명**을 제공하는 대표 정리 모음입니다. 각 챕터의 문서에서 $\square$로 종결되는 엄밀한 증명을 확인할 수 있습니다. (전체 84개 정리 중 핵심만 발췌)
+이 레포에서 **완전한 증명**을 제공하는 대표 정리 모음입니다. 각 챕터의 문서에서 $\square$로 종결되는 엄밀한 증명을 확인할 수 있습니다. (전체 166개 정리 중 핵심만 발췌)
 
 | 정리 | 서술 | 출처 문서 |
 |------|------|----------|
@@ -260,7 +260,7 @@
 | **Gibbs ⊂ MH** | Gibbs sampler는 acceptance $\equiv 1$인 MH의 특수 경우 | [Ch7-03](./ch7-mcmc/03-gibbs-sampler.md) |
 | **HMC의 심플렉틱 보존** | Leapfrog integrator는 심플렉틱·시간가역 → 고차원 mixing 개선 | [Ch7-04](./ch7-mcmc/04-hamiltonian-mc.md) |
 
-> 💡 **챕터별 총 정리 수**: Ch1(9) · Ch2(18) · Ch3(10) · Ch4(11) · Ch5(13) · Ch6(15) · Ch7(8) — 합계 **84개 정리 + 증명**, 약 **17,000+ 라인** 분량.
+> 💡 **챕터별 총 정리 수**: Ch1(22) · Ch2(31) · Ch3(22) · Ch4(22) · Ch5(25) · Ch6(26) · Ch7(18) — 합계 **166개 정리 + 증명**, 약 **13,500+ 라인** 분량.
 
 ---
 
@@ -378,7 +378,7 @@ plt.legend(); plt.grid(True, alpha=0.3); plt.show()
 >
 > 🧭 **푸터 네비게이션**: 각 문서 하단에 `◀ 이전 / 📚 README / 다음 ▶` 링크가 항상 제공됩니다. 챕터 경계에서도 자동으로 다음 챕터 첫 문서로 연결되므로 순차 학습이 끊기지 않습니다.
 >
-> ⏱️ **학습 시간 추정**: 문서당 평균 480줄(증명·코드·연습문제 포함) 기준 **약 1~1.5시간**. 전체 35문서는 약 **40~50시간** 상당.
+> ⏱️ **학습 시간 추정**: 문서당 평균 약 370줄(증명·코드·연습문제 포함) 기준 **약 45분~1.5시간** (증명 재구성 포함 시). 전체 35문서는 약 **35~50시간** 상당.
 
 ---
 
@@ -419,7 +419,7 @@ Day 5  Ch6-04~06  비미분 가능성·이차변분 $\langle B\rangle_t = t$·�
 </details>
 
 <details>
-<summary><b>🔴 "확률과정과 MCMC의 수학적 기반을 완전 정복한다" — 전체 정복 (7주, 약 40~50시간)</b></summary>
+<summary><b>🔴 "확률과정과 MCMC의 수학적 기반을 완전 정복한다" — 전체 정복 (7주, 약 35~50시간)</b></summary>
 
 <br/>
 
