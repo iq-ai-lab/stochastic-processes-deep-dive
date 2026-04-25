@@ -2,15 +2,37 @@
 
 # 🎲 Stochastic Processes Deep Dive
 
-**"마르코프 체인 `P^n`을 돌리는 것과, 왜 **제2고유값 $|\lambda_2|$가 mixing time을 결정**하는지 — 전이행렬의 스펙트럴 분해로 정상분포로의 수렴률을 예측할 수 있는 것은 다르다"**
+### 마르코프 체인
+
+$$P^n$$
+
+### 을 돌리는 것과, 왜 **제2고유값**
+
+$$|\lambda_2|$$
+
+### 가 **mixing time 을 결정** 하는지 — 전이행렬의 **스펙트럴 분해** 로 정상분포로의 수렴률을 예측할 수 있는 것은 **다르다.**
 
 <br/>
 
-> *"Brownian motion의 궤적을 그리는 것과, 왜 **거의 확실하게 어디에서도 미분불가능**한지 — Hausdorff 차원 관점에서 증명할 수 있는 것은 다르다.  
-> MCMC를 쓰는 것과, 왜 **Metropolis-Hastings의 acceptance ratio $\min(1, \cdot)$가 detailed balance를 만족**하는지, 그래서 왜 $\pi$가 정상분포가 되는지 증명할 수 있는 것은 다르다."*
+> *Brownian motion 의 궤적을 **그리는 것** 과, 왜 **거의 확실하게 어디에서도 미분불가능** 한지 — **Hausdorff 차원** 관점에서 증명할 수 있는 것은 다르다.*
+>
+> *MCMC 를 **쓰는 것** 과, 왜 Metropolis–Hastings 의 acceptance ratio*
+>
+> $$\alpha(x, y) = \min\!\left(1,\, \frac{\pi(y)\, q(x \mid y)}{\pi(x)\, q(y \mid x)}\right)$$
+>
+> *가 **detailed balance 를 만족** 하는지, 그래서 왜 $\pi$ 가 정상분포가 되는지 증명할 수 있는 것은 다르다.*
 
-이산 마르코프 체인의 스펙트럴 수렴 이론부터 Poisson 과정의 세 가지 동치 정의, 마팅게일 수렴 정리, 브라운 운동의 Lévy 구성, 그리고 Metropolis-Hastings·Gibbs·HMC까지 —  
-**"시간에 따라 진화하는 확률 구조는 어떻게 정상성에 도달하는가"** 라는 질문으로 MCMC·Diffusion Model·RL Q-learning의 수학적 기반을 끝까지 파헤칩니다
+<br/>
+
+**다루는 정리·기법 (시간순)**
+
+Markov 1906 *이산 Markov chain* · Poisson 1837 / Erlang 1909 *Poisson 과정* · Wiener 1923 *Brownian motion* · Doob 1953 *마팅게일 수렴 정리* · Lévy 1948 *Brownian motion 의 Lévy 구성* · Itô 1944 *Itô 적분* · Metropolis 1953 *MCMC* · Hastings 1970 *MH 일반화* · Geman 1984 *Gibbs sampling* · Duane 1987 *HMC*
+
+<br/>
+
+**핵심 질문**
+
+> **시간에 따라 진화하는 확률 구조는 어떻게 정상성에 도달하는가** — 이산 Markov chain 의 스펙트럴 수렴 · Poisson 과정의 세 가지 동치 정의 · 마팅게일 수렴 정리 · Brownian motion 의 Lévy 구성 · Metropolis–Hastings · Gibbs · HMC 까지, MCMC · Diffusion Model · RL Q-learning 의 수학적 기반을 끝까지 파헤칩니다.
 
 <br/>
 
